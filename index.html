@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bookies</title>
+  
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <div class="navbar">
+        <h1>Bookies</h1>
+    </div>
+    <div class="container">
+        <div class="box-container">
+            <h2>Dreamy World</h2>
+            <h5>Jamun</h5>
+            <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. </p>
+            <button onclick="deletebook(event)">Delete</button>
+        </div>         
+    </div>
+    <div class="pop-overlay"></div>
+    <div class="pop_box">
+        <h2>Add Book</h2>
+        <form>
+            <input type="text" placeholder="Book Tittle" id="book-tittle">
+            <input type="text" placeholder="Book Author" id="author">
+            <textarea placeholder="Short Description" id = "Description"></textarea>
+            <button id="add-book">ADD</button>
+            <button id="cancel-popup">Cancel</button>
+    </div>
+    <button class="add-button" id="add-popup" type="button">+</button>
+    <script src="script.js"></script>
+</body>
+</html>
